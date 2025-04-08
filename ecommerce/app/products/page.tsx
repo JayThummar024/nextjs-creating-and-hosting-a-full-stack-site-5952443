@@ -1,5 +1,11 @@
+import ProductList from "../ProductsList";
+import { products } from "../product-data";
+
 export default function ProductPage() {
   return (
-    <div>Product</div>
+    <>
+      <h1>Products</h1>
+      <ProductList products={products} />
+    </>
   );
 }
